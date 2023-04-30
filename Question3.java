@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Question3
+class Main
 {
   public static void main(String[] args)
   {
@@ -10,9 +10,9 @@ public class Question3
      * Hint: in.nextInt() to read integer
      */
      
-    Scanner in = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
     System.out.print("Enter an integer: ");
-    int num = in.nextInt();
+    int num = scanner.nextInt();
     
     int result = num*num; 
     
