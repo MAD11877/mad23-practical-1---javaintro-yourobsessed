@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Question4
+class Question4
 {
   public static void main(String[] args)
   {
@@ -18,6 +18,16 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.print("Enter an integer: ");
+    int n = in.nextInt();
     
+    for(int i = n; i >= 1; i--)  //5,4,3,2,1 
+    {
+        for(int j = 1; j <= i; j++)  //1,2,3,4,5 
+        {
+            System.out.print("*");
+        }
+        System.out.println();
+    }
   }
 }
