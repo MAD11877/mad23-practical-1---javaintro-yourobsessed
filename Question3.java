@@ -10,7 +10,13 @@ public class Question3
      * Hint: in.nextInt() to read integer
      */
      
-    Scanner in = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
+  
+    int num = scanner.nextInt();
+    
+    int result = num*num; 
+    
+    System.out.println(result);  //printf: for formatted printing of data; println: for printing plain text
     
   }
 }

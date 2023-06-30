@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //use the Scanner class to read input from the user
 
 public class Question2
 {
@@ -9,8 +9,15 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-     
     Scanner in = new Scanner(System.in);
+    
     double height = in.nextDouble();
+    
+    double weight = in.nextDouble();
+    
+    double bmi = weight / (height * height);
+    
+    System.out.println(bmi);
+    in.close();
   }
 }
