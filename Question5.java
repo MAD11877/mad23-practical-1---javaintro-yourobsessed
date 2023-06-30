@@ -27,7 +27,7 @@ public class Question5 {
         Scanner in = new Scanner(System.in);
         
         // Prompt the user for the number of integers to enter
-        System.out.print("Enter the number of integers to enter: ");
+        // System.out.print("Enter the number of integers to enter: ");
         int n = in.nextInt();
         
         // Create an array to hold the integers entered by the user
@@ -35,7 +35,7 @@ public class Question5 {
         
         // Prompt the user to enter n integers
         for (int i = 0; i < n; i++) {
-            System.out.print("Enter integer " + (i+1) + ": ");
+            // System.out.print("Enter integer " + (i+1) + ": ");
             nums[i] = in.nextInt();
         }
         
@@ -56,7 +56,7 @@ public class Question5 {
         }
         
         // Print the mode
-        System.out.println("Mode: " + mode);
+        System.out.println(mode);
     }
 }
 
