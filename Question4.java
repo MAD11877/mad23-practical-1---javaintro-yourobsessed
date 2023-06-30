@@ -18,7 +18,7 @@ class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter an integer: ");
+    // System.out.print("Enter an integer: ");
     int n = in.nextInt();
     
     for(int i = n; i >= 1; i--)  //5,4,3,2,1 
